@@ -20,11 +20,22 @@ html{
 body{
     max-height: 100vh;
     background-color: var(--Cream);
+    color: var(--Darkgrayishblue);
     font-family: 'Montserrat', sans-serif;
     font-size: 1.4rem;
 }
 .container__feature--img img{
     width: 100%;
+}
+.card__title{
+    color: #000;
+}
+.card__prices .oldprice{
+    text-decoration: line-through;
+}
+.card__btn--cart:hover{
+    background-color: hsl(160, 38%, 19%);
+    cursor:pointer;
 }
 @media (max-width:768px)
 {
